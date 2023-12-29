@@ -1,0 +1,31 @@
+@font-face {
+  font-family: PP Mori;
+  src: url("./assets/fonts/PPMori-Regular.otf") format("opentype");
+  src: url("./assets/fonts/PPMori-SemiBold.otf") format("opentype");
+  src: url("./assets/fonts/PPMori-Extralight.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #F7F7F8;
+}
+
+.tnc-header {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  border-bottom: 1px solid rgba(78, 82, 91, 0.12);
+  background: #FCFCFC;
+
+  font-family: PP Mori;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
