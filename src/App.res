@@ -2,6 +2,7 @@
 let make = () => {
   <div>
     <Header />
-    <Bull dataList={Data.newList} />
+    <TermsAndConditionList data={Data.tncList} />
+    <Footer />
   </div>
 }

@@ -11,6 +11,9 @@
 
 body {
   background-color: #F7F7F8;
+  font-family: PP Mori;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .tnc-header {
@@ -27,5 +30,46 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
+  line-height: 24px;
+}
+
+.disc-dot-dark {
+  list-style-type: disc;
+  font-size: 10px;
+}
+
+.circle-dot-light {
+  list-style-type: circle;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.orange {
+  color: red;
+  font-weight: 600;
+}
+
+.point-header {
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  margin: 10px 0px;
+  line-height: 24px;
+}
+
+.normal-point {
+  font-size: 16px;
+  font-style: normal;
+  margin: 10px 0px;
+  line-height: 24px;
+}
+
+.footer {
+  padding: 0px 16px;
+  font-family: PP Mori;
+  font-size: 16px;
+  font-style: normal;
   line-height: 24px;
 }
